@@ -9,7 +9,7 @@ module Mredis
 
     def configure
       yield self
-      $redis = Redis.new(:host => host, :port => port, :db => db)
+      $mredis = Redis.new(:host => host, :port => port, :db => db)
     end
   end
 end

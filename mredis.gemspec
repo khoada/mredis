@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Mredis::VERSION
   spec.authors       = ["Dao Anh Khoa"]
   spec.email         = ["khoada@lifetimetech.vn"]
-  spec.description   = "Use redis to save and suggestion keyword"
-  spec.summary       = "Search suggestion"
+  spec.description   = "Multi method for redis (get, set, mget, incr, desc counter)"
+  spec.summary       = "Redis method support"
   spec.homepage      = ""
   spec.license       = "MIT"
 
