@@ -1,4 +1,4 @@
-module KdaGem
+module Mredis
   module Config
     OPTION_KEYS = [
       :host,
@@ -9,7 +9,7 @@ module KdaGem
 
     def configure
       yield self
-      $redis_search = Redis.new(:host => host, :port => port, :db => db)
+      $redis = Redis.new(:host => host, :port => port, :db => db)
     end
   end
 end

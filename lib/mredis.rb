@@ -2,7 +2,8 @@
 require "mredis/version"
 
 require "mredis/config"
-require "mredis/suggestion"
+require "mredis/fetch"
+require "mredis/mget"
 require "redis"
 
 module Mredis
