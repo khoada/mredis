@@ -1,6 +1,6 @@
 # Mredis
 
-TODO: Write a gem description
+Catch all exception when redis server is down and make sure your system can't be broken down. Have a method to create key for redis and permit use mget for an array of objects.
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You can configure your redis server in file yml.
+Please include the moudle Mredis to use our function.
+You can override the method for your purpose
 
 ## Contributing
 
