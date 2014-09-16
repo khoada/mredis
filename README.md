@@ -1,6 +1,7 @@
 # Mredis
 
-Catch all exception when redis server is down and make sure your system can't be broken down. Have a method to create key for redis and permit use mget for an array of objects.
+Catch all exception when redis server is down and make sure your system can't be broken down. 
+Provide method to create key for redis and permit use mget for an array of objects.
 
 ## Installation
 
